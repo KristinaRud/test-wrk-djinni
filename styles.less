@@ -146,7 +146,6 @@ section {
     max-width: 1080px;
     width: 100%;
     height: auto;
-    background-color: antiquewhite;    
 
 }
 
@@ -255,6 +254,7 @@ input[type=checkbox] {
     padding: 80px 60px 60px 60px;
     max-width: 1440px;
     height: 480px;
+    background-color: #fff;
  
   }
   .top-footer{
@@ -571,7 +571,7 @@ span>h6{
 }
 
 #description{
-    background-color: @body-back;
+    background-color: #fff;
 }
 
 .rating{
@@ -730,7 +730,7 @@ input.check__input {
 }
 .reviwe-back{
     padding: 24px; 
-    background-color: @body-back;
+    background-color: #fff;
     border-radius: 10px;
 }
 
@@ -747,6 +747,19 @@ input.check__input {
     color: #1A202C;
 }
 
+.all-comments{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #90A3BF;
+}
+
 .title-badge{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -758,6 +771,7 @@ input.check__input {
 
     width: 44px;
     height: 28px;
+    margin-left: 12px;
     background-color: @color-prim;
 }
 
@@ -840,11 +854,10 @@ input.check__input {
 
 .top-cars-gallery{
     padding: 10px 20px;
-    background-color: @body-back;
 }
 
 .item{
-    background-color: @body-back;
+    background-color: #fff;
     border-radius: 10px;
     width: 317px;
     height: 388px;
@@ -954,10 +967,12 @@ input.check__input {
         padding: 0 24px 0 24px;
     }
 
-
     .footer-card{
         margin-left: 0;
-        margin-right: 65px;
+    }
+
+    .foot-item{
+        margin-left: 65px;
     }
 
     .logo {
@@ -1030,7 +1045,9 @@ input.check__input {
         font-size: 20px;
     }
 
-    .text-review, .descr, .prop-name, .prop,.small-txt, .comments, .thin-little-txt{
+    .text-review, .descr, .prop-name, .prop,.small-txt,
+     .comments, .thin-little-txt, .type-car, .title-property,
+      .small-txt-item{
         font-size: 12px;
     }
 
@@ -1043,7 +1060,7 @@ input.check__input {
         height: 56px;
     }
 
-    .btn-rent, .name{
+    .btn-rent, .name, .title-item, .car-price-item{
         font-size: 16px;
     }
 
@@ -1057,6 +1074,9 @@ input.check__input {
 
  
     }
+    .all-comments{
+        font-size: 14px;
+    }
 
     .rating>svg{
         width: 12px;
@@ -1068,11 +1088,41 @@ input.check__input {
         height: 44px;
     }
 
+    .item{
+        width: 240px;
+        height: 286px;
+        margin-right: 20px;
+        padding: 18px;
+    }
+
+    .img-item{
+        width: 196px;
+        height: 96px;
+    }
+
+    .prop-icon > svg{
+        width: 14px;
+        height: 14px;
+    }
+
+    .btn-rent-item > .btn-rent{
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    #footer{
+        background-color: @body-back;
+    }
+
+    #section-bg{
+        background-color: @body-back;
+    }
+
+
 }
 
 @media @tablet{
 
-    #footer{
-        background-color: @back-white;
-    }
+    
 }

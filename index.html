@@ -256,7 +256,7 @@
                     <div class="burger-menu_overlay"></div> 
                 <!--</div>--> 
                 
-                <section id="">
+                <section id="section-bg">
                     <section class="pb-2 card-good d-flex flex-column flex-sm-wrap flex-sm-row justify-content-sm-between" >
                         <!--Gallery-->
 
@@ -561,7 +561,7 @@
                                 </div>
                             </div>
 
-                            <div class="accordion-item">
+                            <div class="accordion-item d-flex flex-column align-items-center">
                                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" >
                                   <div class="accordion-body">
                                     <div class="comments-card">
@@ -621,9 +621,10 @@
                                         </div>
                                     </div>
                                   </div>
-                                </div><h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
+                                </div>
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                  <button class="all-comments accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    Show All
                                   </button>
                                 </h2>
                                 
@@ -637,273 +638,229 @@
                             <span class="btn-all">View All</span>
                         </div>
                         
-                            <div class="mt-3 scroll-horizontal d-flex  flex-sm-row justify-content-sm-between">
+                        <div class="mt-3 scroll-horizontal d-flex  flex-sm-row justify-content-sm-between">
 
-                                <div class="item">
-                                    <div class="p-4 d-flex flex-column align-items-start">
-                                        <div class="d-flex justify-content-between top-title mb-1">
-                                            <span class="title-item">Koenigsegg</span>
-                                            <label class="check option d-flex">
-                                                <input class="check__input" type="checkbox" checked="">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path class="check__heart"
-                                                        d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z"
-                                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </label>
-                                        </div>
-                                        <span class="type-car">
-                                            Sport
-                                        </span>
-                                    </div>
-                                    
-                                    <div class="img-car-item mb-2">
-                                        <div class="img-wrap"> 
-                                            <img class="img-item" src="./images/koenigsegg.png"> 
-                                        </div>
-                                    </div>
-
-                                    <div class="p-4 d-flex flex-row align-items-start justify-content-between">
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z"
-                                                    fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">90L</span>    
-                                        </div>
-                                        <div class="d-flex justify-content-between">
+                            <div class="item">
+                                <div class="p-sm-4 d-flex flex-column align-items-start">
+                                    <div class="d-flex justify-content-between top-title mb-1">
+                                        <span class="title-item">Koenigsegg</span>
+                                        <label class="check option d-flex">
+                                            <input class="check__input" type="checkbox" checked="">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
-                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
-                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
-                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
-                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <path class="check__heart" d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
-                                            <span class="title-property ms-2">Manual</span>
-
-                                        </div>
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z"
-                                                    fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">2 People</span>
-                                                
-                                        </div>
-                                    </div>   
-
-                                    <div class="p-4 bottom-item-car d-flex justify-content-between">
-                                        <div class="d-flex flex-row">
-                                            <var class="car-price-item h5">$80.00/</var> 
-                                            <span class="small-txt-item">day</span> 
-                                        </div>
-                                        <div class="btn-rent-item">
-                                            <a href="#" class="btn-rent d-flex flex-row justify-content-center align-items-center">
-                                                Rent now
-                                            </a>
-                                        </div>
-                                    </div>   
-                           
+                                        </label>
+                                    </div>
+                                    <span class="type-car">
+                                        Sport
+                                    </span>
                                 </div>
-                                <div class="item">
-                                    <div class="p-4 d-flex flex-column align-items-start">
-                                        <div class="d-flex justify-content-between top-title mb-1">
-                                            <span class="title-item">Nissan GT-R</span>
-                                            <label class="check option d-flex">
-                                                <input class="check__input" type="checkbox" checked="">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path class="check__heart"
-                                                        d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z"
-                                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </label>
-                                        </div>
-                                        <span class="type-car">
-                                            Sport
-                                        </span>
+                                
+                                <div class="mt-1 mt-sm-0 img-car-item mb-2">
+                                    <div class="img-wrap"> 
+                                        <img class="img-item" src="./images/koenigsegg.png"> 
                                     </div>
-                                    
-                                    <div class="img-car-item mb-2">
-                                        <div class="img-wrap"> 
-                                            <img class="img-item" src="./images/koenigsegg.png"> 
-                                        </div>
-                                    </div>
-
-                                    <div class="p-4 d-flex flex-row align-items-start justify-content-between">
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z"
-                                                    fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">80L</span>    
-                                        </div>
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
-                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
-                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
-                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
-                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">Manual</span>
-
-                                        </div>
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z"
-                                                    fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">2 People</span>
-                                                
-                                        </div>
-                                    </div>   
-
-                                    <div class="p-4 bottom-item-car d-flex justify-content-between">
-                                        <div class="d-flex flex-row">
-                                            <var class="car-price-item h5">$80.00/</var> 
-                                            <span class="small-txt-item">day</span> 
-                                        </div>
-                                        <div class="btn-rent-item">
-                                            <a href="#" class="btn-rent d-flex flex-row justify-content-center align-items-center">
-                                                Rent now
-                                            </a>
-                                        </div>
-                                    </div>   
-                           
                                 </div>
-                                <div class="item">
-                                    <div class="p-4 d-flex flex-column align-items-start">
-                                        <div class="d-flex justify-content-between top-title mb-1">
-                                            <span class="title-item">Rolls-Royce</span>
-                                            <label class="check option d-flex">
-                                                <input class="check__input" type="checkbox" checked="">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path class="check__heart"
-                                                        d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z"
-                                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </label>
-                                        </div>
-                                        <span class="type-car">
-                                            Sport
-                                        </span>
+
+                                <div class="mt-4 mt-sm-0 p-sm-4 d-flex flex-row align-items-start justify-content-between">
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z" fill="#90A3BF"></path>
+                                        </svg>
+                                        <span class="title-property ms-2">90L</span>    
                                     </div>
-                                    
-                                    <div class="img-car-item mb-2">
-                                        <div class="img-wrap"> 
-                                            <img class="img-item" src="./images/koenigsegg.png"> 
-                                        </div>
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z" fill="#90A3BF"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="8" fill="white"></rect>
+                                            <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z" fill="#90A3BF"></path>
+                                            <rect x="8" y="8" width="8" height="8" rx="4" fill="white"></rect>
+                                            <rect x="11" y="17" width="2" height="4" fill="#90A3BF"></rect>
+                                            <rect x="17" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                            <rect x="3" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                        </svg>
+                                        <span class="title-property ms-2">Manual</span>
+
                                     </div>
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#90A3BF"></path>
+                                            <path d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z" fill="#90A3BF"></path>
+                                            <path d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z" fill="#90A3BF"></path>
+                                            <path d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z" fill="#90A3BF"></path>
+                                        </svg>
+                                        <span class="title-property ms-2">2 People</span>
+                                            
+                                    </div>
+                                </div>   
 
-                                    <div class="p-4 d-flex flex-row align-items-start justify-content-between">
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z"
-                                                    fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">70L</span>    
-                                        </div>
-                                        <div class="d-flex justify-content-between">
+                                <div class="pt-2 mt-4 mt-sm-0 p-sm-4 bottom-item-car d-flex justify-content-between align-items-center">
+                                    <div class="d-flex flex-row">
+                                        <var class="car-price-item h5">$80.00/</var> 
+                                        <span class="small-txt-item">day</span> 
+                                    </div>
+                                    <div class="btn-rent-item ms-3 ms-sm-0">
+                                        <a href="#" class="rent-item btn-rent rent-item d-flex flex-row justify-content-center align-items-center">
+                                            Rent now
+                                        </a>
+                                    </div>
+                                </div>   
+                       
+                            </div>
+                            <div class="item">
+                                <div class="p-sm-4 d-flex flex-column align-items-start">
+                                    <div class="d-flex justify-content-between top-title mb-1">
+                                        <span class="title-item">Koenigsegg</span>
+                                        <label class="check option d-flex">
+                                            <input class="check__input" type="checkbox" checked="">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
-                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
-                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
-                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
-                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <path class="check__heart" d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
-                                            <span class="title-property ms-2">Manual</span>
-
-                                        </div>
-                                        <div class="d-flex justify-content-between">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z"
-                                                    fill="#90A3BF" />
-                                            </svg>
-                                            <span class="title-property ms-2">4 People</span>
-                                                
-                                        </div>
-                                    </div>   
-
-                                    <div class="p-4 bottom-item-car d-flex justify-content-between">
-                                        <div class="d-flex flex-row">
-                                            <var class="car-price-item h5">$96.00/</var> 
-                                            <span class="small-txt-item">day</span> 
-                                        </div>
-                                        <div class="btn-rent-item">
-                                            <a href="#" class="btn-rent d-flex flex-row justify-content-center align-items-center">
-                                                Rent now
-                                            </a>
-                                        </div>
-                                    </div>   
-                           
+                                        </label>
+                                    </div>
+                                    <span class="type-car">
+                                        Sport
+                                    </span>
                                 </div>
-                            </div> 
+                                
+                                <div class="mt-1 mt-sm-0 img-car-item mb-2">
+                                    <div class="img-wrap"> 
+                                        <img class="img-item" src="./images/koenigsegg.png"> 
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 mt-sm-0 p-sm-4 d-flex flex-row align-items-start justify-content-between">
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z" fill="#90A3BF"></path>
+                                        </svg>
+                                        <span class="title-property ms-2">90L</span>    
+                                    </div>
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z" fill="#90A3BF"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="8" fill="white"></rect>
+                                            <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z" fill="#90A3BF"></path>
+                                            <rect x="8" y="8" width="8" height="8" rx="4" fill="white"></rect>
+                                            <rect x="11" y="17" width="2" height="4" fill="#90A3BF"></rect>
+                                            <rect x="17" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                            <rect x="3" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                        </svg>
+                                        <span class="title-property ms-2">Manual</span>
+
+                                    </div>
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#90A3BF"></path>
+                                            <path d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z" fill="#90A3BF"></path>
+                                            <path d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z" fill="#90A3BF"></path>
+                                            <path d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z" fill="#90A3BF"></path>
+                                        </svg>
+                                        <span class="title-property ms-2">2 People</span>
+                                            
+                                    </div>
+                                </div>   
+
+                                <div class="pt-2 mt-4 mt-sm-0 p-sm-4 bottom-item-car d-flex justify-content-between align-items-center">
+                                    <div class="d-flex flex-row">
+                                        <var class="car-price-item h5">$80.00/</var> 
+                                        <span class="small-txt-item">day</span> 
+                                    </div>
+                                    <div class="btn-rent-item ms-3 ms-sm-0">
+                                        <a href="#" class="rent-item btn-rent rent-item d-flex flex-row justify-content-center align-items-center">
+                                            Rent now
+                                        </a>
+                                    </div>
+                                </div>   
+                       
+                            </div>
+                            <div class="item">
+                                <div class="p-sm-4 d-flex flex-column align-items-start">
+                                    <div class="d-flex justify-content-between top-title mb-1">
+                                        <span class="title-item">Koenigsegg</span>
+                                        <label class="check option d-flex">
+                                            <input class="check__input" type="checkbox" checked="">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="check__heart" d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="type-car">
+                                        Sport
+                                    </span>
+                                </div>
+                                
+                                <div class="mt-1 mt-sm-0 img-car-item mb-2">
+                                    <div class="img-wrap"> 
+                                        <img class="img-item" src="./images/koenigsegg.png"> 
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 mt-sm-0 p-sm-4 d-flex flex-row align-items-start justify-content-between">
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z" fill="#90A3BF"></path>
+                                        </svg>
+                                        <span class="title-property ms-2">90L</span>    
+                                    </div>
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z" fill="#90A3BF"></path>
+                                            <rect x="4" y="4" width="16" height="16" rx="8" fill="white"></rect>
+                                            <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z" fill="#90A3BF"></path>
+                                            <rect x="8" y="8" width="8" height="8" rx="4" fill="white"></rect>
+                                            <rect x="11" y="17" width="2" height="4" fill="#90A3BF"></rect>
+                                            <rect x="17" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                            <rect x="3" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                        </svg>
+                                        <span class="title-property ms-2">Manual</span>
+
+                                    </div>
+                                    <div class="prop-icon d-flex justify-content-between">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#90A3BF"></path>
+                                            <path d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z" fill="#90A3BF"></path>
+                                            <path d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z" fill="#90A3BF"></path>
+                                            <path d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z" fill="#90A3BF"></path>
+                                        </svg>
+                                        <span class="title-property ms-2">2 People</span>
+                                            
+                                    </div>
+                                </div>   
+
+                                <div class="pt-2 mt-4 mt-sm-0 p-sm-4 bottom-item-car d-flex justify-content-between align-items-center">
+                                    <div class="d-flex flex-row">
+                                        <var class="car-price-item h5">$80.00/</var> 
+                                        <span class="small-txt-item">day</span> 
+                                    </div>
+                                    <div class="btn-rent-item ms-3 ms-sm-0">
+                                        <a href="#" class="rent-item btn-rent rent-item d-flex flex-row justify-content-center align-items-center">
+                                            Rent now
+                                        </a>
+                                    </div>
+                                </div>   
+                       
+                            </div>
+                        </div>
     
                     </section>
 
                     <section id="gallery-cars" class="card-good">
                         <div class="top-cars-gallery d-flex justify-content-between">
-                            <span class="title-cars-section">Resent Car</span>
+                            <span class="title-cars-section">Recomendation Car</span>
                             <span class="btn-all">View All</span>
                         </div>
                         
                             <div class="mt-3 scroll-horizontal d-flex  flex-sm-row justify-content-sm-between">
 
                                 <div class="item">
-                                    <div class="p-4 d-flex flex-column align-items-start">
+                                    <div class="p-sm-4 d-flex flex-column align-items-start">
                                         <div class="d-flex justify-content-between top-title mb-1">
                                             <span class="title-item">Koenigsegg</span>
                                             <label class="check option d-flex">
                                                 <input class="check__input" type="checkbox" checked="">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path class="check__heart"
-                                                        d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z"
-                                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path class="check__heart" d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>
                                             </label>
                                         </div>
@@ -912,63 +869,51 @@
                                         </span>
                                     </div>
                                     
-                                    <div class="img-car-item mb-2">
+                                    <div class="mt-1 mt-sm-0 img-car-item mb-2">
                                         <div class="img-wrap"> 
                                             <img class="img-item" src="./images/koenigsegg.png"> 
                                         </div>
                                     </div>
-
-                                    <div class="p-4 d-flex flex-row align-items-start justify-content-between">
-                                        <div class="d-flex justify-content-between">
+    
+                                    <div class="mt-4 mt-sm-0 p-sm-4 d-flex flex-row align-items-start justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z"
-                                                    fill="#90A3BF" />
+                                                <path d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z" fill="#90A3BF"></path>
                                             </svg>
                                             <span class="title-property ms-2">90L</span>    
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
-                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
-                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
-                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
-                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z" fill="#90A3BF"></path>
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white"></rect>
+                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z" fill="#90A3BF"></path>
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white"></rect>
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF"></rect>
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF"></rect>
                                             </svg>
                                             <span class="title-property ms-2">Manual</span>
-
+    
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z"
-                                                    fill="#90A3BF" />
+                                                <path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#90A3BF"></path>
+                                                <path d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z" fill="#90A3BF"></path>
+                                                <path d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z" fill="#90A3BF"></path>
+                                                <path d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z" fill="#90A3BF"></path>
                                             </svg>
                                             <span class="title-property ms-2">2 People</span>
                                                 
                                         </div>
                                     </div>   
-
-                                    <div class="p-4 bottom-item-car d-flex justify-content-between">
+    
+                                    <div class="pt-2 mt-4 mt-sm-0 p-sm-4 bottom-item-car d-flex justify-content-between align-items-center">
                                         <div class="d-flex flex-row">
                                             <var class="car-price-item h5">$80.00/</var> 
                                             <span class="small-txt-item">day</span> 
                                         </div>
-                                        <div class="btn-rent-item">
-                                            <a href="#" class="btn-rent d-flex flex-row justify-content-center align-items-center">
+                                        <div class="btn-rent-item ms-3 ms-sm-0">
+                                            <a href="#" class="rent-item btn-rent rent-item d-flex flex-row justify-content-center align-items-center">
                                                 Rent now
                                             </a>
                                         </div>
@@ -976,15 +921,13 @@
                            
                                 </div>
                                 <div class="item">
-                                    <div class="p-4 d-flex flex-column align-items-start">
+                                    <div class="p-sm-4 d-flex flex-column align-items-start">
                                         <div class="d-flex justify-content-between top-title mb-1">
-                                            <span class="title-item">Nissan GT-R</span>
+                                            <span class="title-item">Koenigsegg</span>
                                             <label class="check option d-flex">
                                                 <input class="check__input" type="checkbox" checked="">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path class="check__heart"
-                                                        d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z"
-                                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path class="check__heart" d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>
                                             </label>
                                         </div>
@@ -993,63 +936,51 @@
                                         </span>
                                     </div>
                                     
-                                    <div class="img-car-item mb-2">
+                                    <div class="mt-1 mt-sm-0 img-car-item mb-2">
                                         <div class="img-wrap"> 
                                             <img class="img-item" src="./images/koenigsegg.png"> 
                                         </div>
                                     </div>
-
-                                    <div class="p-4 d-flex flex-row align-items-start justify-content-between">
-                                        <div class="d-flex justify-content-between">
+    
+                                    <div class="mt-4 mt-sm-0 p-sm-4 d-flex flex-row align-items-start justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z"
-                                                    fill="#90A3BF" />
+                                                <path d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z" fill="#90A3BF"></path>
                                             </svg>
-                                            <span class="title-property ms-2">80L</span>    
+                                            <span class="title-property ms-2">90L</span>    
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
-                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
-                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
-                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
-                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z" fill="#90A3BF"></path>
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white"></rect>
+                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z" fill="#90A3BF"></path>
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white"></rect>
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF"></rect>
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF"></rect>
                                             </svg>
                                             <span class="title-property ms-2">Manual</span>
-
+    
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z"
-                                                    fill="#90A3BF" />
+                                                <path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#90A3BF"></path>
+                                                <path d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z" fill="#90A3BF"></path>
+                                                <path d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z" fill="#90A3BF"></path>
+                                                <path d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z" fill="#90A3BF"></path>
                                             </svg>
                                             <span class="title-property ms-2">2 People</span>
                                                 
                                         </div>
                                     </div>   
-
-                                    <div class="p-4 bottom-item-car d-flex justify-content-between">
+    
+                                    <div class="pt-2 mt-4 mt-sm-0 p-sm-4 bottom-item-car d-flex justify-content-between align-items-center">
                                         <div class="d-flex flex-row">
                                             <var class="car-price-item h5">$80.00/</var> 
                                             <span class="small-txt-item">day</span> 
                                         </div>
-                                        <div class="btn-rent-item">
-                                            <a href="#" class="btn-rent d-flex flex-row justify-content-center align-items-center">
+                                        <div class="btn-rent-item ms-3 ms-sm-0">
+                                            <a href="#" class="rent-item btn-rent rent-item d-flex flex-row justify-content-center align-items-center">
                                                 Rent now
                                             </a>
                                         </div>
@@ -1057,15 +988,13 @@
                            
                                 </div>
                                 <div class="item">
-                                    <div class="p-4 d-flex flex-column align-items-start">
+                                    <div class="p-sm-4 d-flex flex-column align-items-start">
                                         <div class="d-flex justify-content-between top-title mb-1">
-                                            <span class="title-item">Rolls-Royce</span>
+                                            <span class="title-item">Koenigsegg</span>
                                             <label class="check option d-flex">
                                                 <input class="check__input" type="checkbox" checked="">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path class="check__heart"
-                                                        d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z"
-                                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path class="check__heart" d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>
                                             </label>
                                         </div>
@@ -1074,63 +1003,51 @@
                                         </span>
                                     </div>
                                     
-                                    <div class="img-car-item mb-2">
+                                    <div class="mt-1 mt-sm-0 img-car-item mb-2">
                                         <div class="img-wrap"> 
                                             <img class="img-item" src="./images/koenigsegg.png"> 
                                         </div>
                                     </div>
-
-                                    <div class="p-4 d-flex flex-row align-items-start justify-content-between">
-                                        <div class="d-flex justify-content-between">
+    
+                                    <div class="mt-4 mt-sm-0 p-sm-4 d-flex flex-row align-items-start justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z"
-                                                    fill="#90A3BF" />
+                                                <path d="M21.34 7.33L19.34 6.33C18.97 6.15 18.51 6.29 18.33 6.66C18.14 7.04 18.29 7.49 18.66 7.67L20.25 8.46V13.25L16.5 13.26V3C16.5 1 15.16 0 13.5 0H5.5C3.84 0 2.5 1 2.5 3V19.25H1C0.59 19.25 0.25 19.59 0.25 20C0.25 20.41 0.59 20.75 1 20.75H18C18.41 20.75 18.75 20.41 18.75 20C18.75 19.59 18.41 19.25 18 19.25H16.5V14.76L21 14.75C21.42 14.75 21.75 14.41 21.75 14V8C21.75 7.72 21.59 7.46 21.34 7.33ZM5 4.89C5 3.5 5.85 3 6.89 3H12.12C13.15 3 14 3.5 14 4.89V6.12C14 7.5 13.15 8 12.11 8H6.89C5.85 8 5 7.5 5 6.11V4.89ZM5.5 10.25H8.5C8.91 10.25 9.25 10.59 9.25 11C9.25 11.41 8.91 11.75 8.5 11.75H5.5C5.09 11.75 4.75 11.41 4.75 11C4.75 10.59 5.09 10.25 5.5 10.25Z" fill="#90A3BF"></path>
                                             </svg>
-                                            <span class="title-property ms-2">70L</span>    
+                                            <span class="title-property ms-2">90L</span>    
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white" />
-                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z"
-                                                    fill="#90A3BF" />
-                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white" />
-                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF" />
-                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF" />
-                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF" />
+                                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.53 2 12 2Z" fill="#90A3BF"></path>
+                                                <rect x="4" y="4" width="16" height="16" rx="8" fill="white"></rect>
+                                                <path d="M12 6C8.688 6 6 8.688 6 12C6 15.312 8.688 18 12 18C15.312 18 18 15.312 18 12C18 8.688 15.318 6 12 6Z" fill="#90A3BF"></path>
+                                                <rect x="8" y="8" width="8" height="8" rx="4" fill="white"></rect>
+                                                <rect x="11" y="17" width="2" height="4" fill="#90A3BF"></rect>
+                                                <rect x="17" y="11" width="4" height="2" fill="#90A3BF"></rect>
+                                                <rect x="3" y="11" width="4" height="2" fill="#90A3BF"></rect>
                                             </svg>
                                             <span class="title-property ms-2">Manual</span>
-
+    
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="prop-icon d-flex justify-content-between">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z"
-                                                    fill="#90A3BF" />
-                                                <path
-                                                    d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z"
-                                                    fill="#90A3BF" />
+                                                <path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#90A3BF"></path>
+                                                <path d="M14.08 14.1499C11.29 12.2899 6.73996 12.2899 3.92996 14.1499C2.65996 14.9999 1.95996 16.1499 1.95996 17.3799C1.95996 18.6099 2.65996 19.7499 3.91996 20.5899C5.31996 21.5299 7.15996 21.9999 8.99996 21.9999C10.84 21.9999 12.68 21.5299 14.08 20.5899C15.34 19.7399 16.04 18.5999 16.04 17.3599C16.03 16.1299 15.34 14.9899 14.08 14.1499Z" fill="#90A3BF"></path>
+                                                <path d="M19.9901 7.3401C20.1501 9.2801 18.7701 10.9801 16.8601 11.2101C16.8501 11.2101 16.8501 11.2101 16.8401 11.2101H16.8101C16.7501 11.2101 16.6901 11.2101 16.6401 11.2301C15.6701 11.2801 14.7801 10.9701 14.1101 10.4001C15.1401 9.4801 15.7301 8.1001 15.6101 6.6001C15.5401 5.7901 15.2601 5.0501 14.8401 4.4201C15.2201 4.2301 15.6601 4.1101 16.1101 4.0701C18.0701 3.9001 19.8201 5.3601 19.9901 7.3401Z" fill="#90A3BF"></path>
+                                                <path d="M21.99 16.5904C21.91 17.5604 21.29 18.4004 20.25 18.9704C19.25 19.5204 17.99 19.7804 16.74 19.7504C17.46 19.1004 17.88 18.2904 17.96 17.4304C18.06 16.1904 17.47 15.0004 16.29 14.0504C15.62 13.5204 14.84 13.1004 13.99 12.7904C16.2 12.1504 18.98 12.5804 20.69 13.9604C21.61 14.7004 22.08 15.6304 21.99 16.5904Z" fill="#90A3BF"></path>
                                             </svg>
-                                            <span class="title-property ms-2">4 People</span>
+                                            <span class="title-property ms-2">2 People</span>
                                                 
                                         </div>
                                     </div>   
-
-                                    <div class="p-4 bottom-item-car d-flex justify-content-between">
+    
+                                    <div class="pt-2 mt-4 mt-sm-0 p-sm-4 bottom-item-car d-flex justify-content-between align-items-center">
                                         <div class="d-flex flex-row">
-                                            <var class="car-price-item h5">$96.00/</var> 
+                                            <var class="car-price-item h5">$80.00/</var> 
                                             <span class="small-txt-item">day</span> 
                                         </div>
-                                        <div class="btn-rent-item">
-                                            <a href="#" class="btn-rent d-flex flex-row justify-content-center align-items-center">
+                                        <div class="btn-rent-item ms-3 ms-sm-0">
+                                            <a href="#" class="rent-item btn-rent rent-item d-flex flex-row justify-content-center align-items-center">
                                                 Rent now
                                             </a>
                                         </div>
@@ -1156,7 +1073,7 @@
                             business.</span>
                     </div>
 
-                    <div class="d-flex flex-wrap flex-lg-row justify-content-lg-between">
+                    <div class="mt-5 mt-sm-0 d-flex flex-wrap flex-lg-row justify-content-lg-between">
                         <div class="footer-card order-1 order-lg-1 ">
                             <h5>About</h5>
                             <ul class="nav flex-column footer-list">
@@ -1166,7 +1083,7 @@
                                 <li class="mb-2"><a href="#" class="nav-link p-0 text-muted">Bussiness Relation</a></li>
                             </ul>
                         </div>
-                        <div class="footer-card order-3 order-lg-2">
+                        <div class="mt-5 mt-sm-0 footer-card  order-3 order-lg-2">
                             <h5>Community</h5>
                             <ul class="nav flex-column  footer-list">
                                 <li class="mb-2"><a href="#" class="nav-link p-0 text-muted">Events</a></li>
@@ -1175,7 +1092,7 @@
                                 <li class="mb-2"><a href="#" class="nav-link p-0 text-muted">Invite a friend</a></li>
                             </ul>
                         </div>
-                        <div class="footer-card order-2 order-lg-3">
+                        <div class="footer-card foot-item order-2 order-lg-3">
                             <h5>Sosial</h5>
                             <ul class="nav flex-column footer-list">
                                 <li class="mb-2"><a href="#" class="nav-link p-0 text-muted">Discord</a></li>
@@ -1187,9 +1104,9 @@
                     </div>
                 </div>
                 
-                <hr>
+                <hr class="d-none d-sm-inline-block">
 
-                <div class="d-flex flex-lg-row justify-content-lg-between flex-column-reverse bottom-footer">
+                <div class="mt-5 mt-sm-0 d-flex flex-lg-row justify-content-lg-between flex-column-reverse bottom-footer">
                     <span>
                         <h6>©2022 MORENT. All rights reserved</h6>
                     </span>
