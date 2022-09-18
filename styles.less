@@ -11,6 +11,9 @@ body {
     background-color: @body-back;
 }
 
+.wrap{
+    max-width: 1440px;
+}
 
 #navbar {
     padding: 40px 32px 40px 60px;
@@ -347,51 +350,6 @@ span>h6{
     margin-top: 48px;
 }
 
-@media @mobile{
-    .privacy-title{
-        margin-left: 0;
-    }
-
-    #navbar{
-        height:222px;
-    }
-
-    #navbar, #footer{
-        padding: 0 24px 0 24px;
-    }
-
-
-    .footer-card{
-        margin-left: 0;
-        margin-right: 65px;
-    }
-
-    .logo {
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 120%;
-
-        /* or 29px */
-        display: flex;
-        align-items: center;
-
-        color: #3563E9;
-    }    
-    
-    .scroll-horizontal{
-        overflow-x: scroll;
-    }
-}
-
-@media @tablet{
-
-    #footer{
-        background-color: @back-white;
-    }
-}
-
 
 .burger-menu_button {
     position: absolute;
@@ -509,13 +467,9 @@ span>h6{
   }
 
 
-  .scroll-horizontal {
-    white-space: nowrap;
-}
-
 .scroll-horizontal .item, .scroll-horizontal .item-lg, .scroll-horizontal .item-sm, .scroll-horizontal .item-xs, .scroll-horizontal>div {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
+    position: relative;
     white-space: initial;
     margin-bottom: 0.3125rem;
 }
@@ -530,7 +484,7 @@ span>h6{
 
 .card-size{
     text-align: center;
-    max-width: 492px;
+    width: 492px;
     height: 508px;
     border-radius: 10px;
 }
@@ -553,10 +507,11 @@ span>h6{
     background-image: url(/icons/background.svg);
     background-color: #3563E9;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
 }
 
 #imgtext{
-    width: 372px;
+    
 
     color: #FFFFFF;
     font-family: 'Plus Jakarta Sans';
@@ -564,7 +519,8 @@ span>h6{
 
     text-align: left;
 
-    span#h5{     
+    span#h5{ 
+        width: 372px;    
         font-weight: 600;
         font-size: 32px;
         line-height: 120%;
@@ -575,6 +531,8 @@ span>h6{
     }
 
     span#p{
+        width: 272px;
+
         font-family: 'Plus Jakarta Sans';
         font-style: normal;
         font-weight: 500;
@@ -839,6 +797,15 @@ input.check__input {
 
 .comments{
     padding-left: 72px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    /* or 28px */
+
+    letter-spacing: -0.02em;
 }
 
 .comments-card{
@@ -966,4 +933,146 @@ input.check__input {
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.gallery-cars{
+    width: 1016px;
+}
+
+
+
+@media @mobile{
+    .privacy-title{
+        margin-left: 0;
+    }
+
+    #navbar{
+        height:222px;
+    }
+
+    #navbar, #footer{
+        padding: 0 24px 0 24px;
+    }
+
+
+    .footer-card{
+        margin-left: 0;
+        margin-right: 65px;
+    }
+
+    .logo {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+
+        /* or 29px */
+        display: flex;
+        align-items: center;
+
+        color: #3563E9;
+    } 
+    
+    .card-size{
+        width: 327px;
+        height: 320px;
+    }
+
+    .card-good{
+        padding: 24px;
+    }
+
+    .car-p-24 img{
+        width: 190px;
+        height: 60px;
+    }
+
+    #imgtext{
+
+        span#h5{ 
+            width: 216px;    
+            font-size: 16px;
+            line-height: 120%;
+            /* or 38px */
+            letter-spacing: -0.01em;
+    
+            margin-bottom: 12px;
+        }
+    
+        span#p{
+            width: 216px;
+            font-size: 12px;
+        }
+    }
+    
+    img[alt='select-car']{
+        width: 190px;
+        height: 60px;
+    }
+
+    .column{
+        width: 96px;
+        height: 64px;
+    }
+    
+    .scroll-horizontal{
+        overflow-x: scroll;
+    }
+
+    img.select-car{
+        width: 80px;
+        height: 26px;
+    }
+
+    .title-car{
+
+        font-size: 20px;
+    }
+
+    .text-review, .descr, .prop-name, .prop,.small-txt, .comments, .thin-little-txt{
+        font-size: 12px;
+    }
+
+    .select-price{
+        font-size: 20px;
+    }
+
+    .btn-rent{
+        width: 140px;
+        height: 56px;
+    }
+
+    .btn-rent, .name{
+        font-size: 16px;
+    }
+
+    .comments>div{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+ 
+    }
+
+    .rating>svg{
+        width: 12px;
+        height: 12px;
+    }
+
+    .avatar{
+        width: 44px;
+        height: 44px;
+    }
+
+}
+
+@media @tablet{
+
+    #footer{
+        background-color: @back-white;
+    }
 }
