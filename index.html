@@ -283,38 +283,7 @@
                                 </div>
                               </div>
                         </div>
-                        <!--SCRIPT-->
-                        <script>
-                            function myFunction(imgs) {
-                                var expandImg = document.getElementById("expandedImg");
-                                let alt=imgs.alt;
-                                var classImgSelect = document.getElementById(imgs.alt);/*class select img*/
-                                var imgText = document.getElementById("imgtext");
-                                var galleryImg = document.getElementById("galleryImg");
-                                var lastSelect = expandImg.alt;
-
-                                document.getElementById(lastSelect).classList.remove("focus");
-
-                                expandImg.src = imgs.src;
-                                expandImg.alt = imgs.alt;
-                                classImgSelect.classList.add("focus");
-                                document.getElementById("big-img").style.display= 'block';
-
-                                if(alt =='select-car'){
-                                    expandImg.classList.remove("view"); 
-                                    galleryImg.classList.add("p-3", "p-sm-4", "car-back"); 
-                                    imgText.classList.add("d-flex");
-                                    imgText.style.display='block';
-                                }else {
-                                    expandImg.classList.contains("view") ? "" : expandImg.classList.add("view"); 
-                                    galleryImg.classList.remove("p-3", "p-sm-4", "car-back");
-                                    imgText.classList.remove("d-flex");
-                                    imgText.style.display='none';
-                                }
-                                                 
-                                
-                            }
-                        </script>
+                        
                         <!--Decription-->
 
                         <div class="card-size p-3 p-sm-4 mt-4 mt-sm-0" id="description">
@@ -1121,6 +1090,38 @@
     </div>
 
     <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            let alt=imgs.alt;
+            var classImgSelect = document.getElementById(imgs.alt);/*class select img*/
+            var imgText = document.getElementById("imgtext");
+            var galleryImg = document.getElementById("galleryImg");
+            var lastSelect = expandImg.alt;
+
+            document.getElementById(lastSelect).classList.remove("focus");
+
+            expandImg.src = imgs.src;
+            expandImg.alt = imgs.alt;
+            classImgSelect.classList.add("focus");
+            document.getElementById("big-img").style.display= 'block';
+
+            if(alt =='select-car'){
+                expandImg.classList.remove("view"); 
+                galleryImg.classList.add("p-3", "p-sm-4", "car-back"); 
+                imgText.classList.add("d-flex");
+                imgText.style.display='block';
+            }else {
+                expandImg.classList.contains("view") ? "" : expandImg.classList.add("view"); 
+                galleryImg.classList.remove("p-3", "p-sm-4", "car-back");
+                imgText.classList.remove("d-flex");
+                imgText.style.display='none';
+            }
+                             
+            
+        }
+    </script>
+
+    <script>
         // .firefox
         var isFF = true;
         var addRule = (function (style) {
@@ -1181,6 +1182,7 @@
 
             burgerMenu('.burger-menu');
     </script>
+    
 </body>
 
 </html>
