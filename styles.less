@@ -219,7 +219,7 @@ input[type=checkbox] {
 
     margin-left: 10px;
 
-    color: #3D5278;
+    color: @base-color;
 }
 
 .badge-count {
@@ -253,8 +253,8 @@ input[type=checkbox] {
   }
   
   .input-range::-webkit-slider-thumb {
-    background-color: #3563E9;
-    border: 4px solid #FFFFFF;
+    background-color: @color-prim;
+    border: 4px solid @back-white;
     border-radius: 0;
         
     height: 22px;
@@ -267,7 +267,7 @@ input[type=checkbox] {
     padding: 80px 60px 60px 60px;
     max-width: 1440px;
     height: 480px;
-    background-color: #fff;
+    background-color: @back-white;
  
   }
   .top-footer{
@@ -380,7 +380,7 @@ span>h6{
     position: absolute;
     width: 50px;
     height: 3px;
-    background-color: #3D5278;
+    background-color: @base-color;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
@@ -444,11 +444,11 @@ span>h6{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 400;
-    color: #3D5278;
-    border-bottom: 1px solid #fff;
+    color: @base-color;
+    border-bottom: 1px solid @back-white;
   }
   .burger-menu_link:first-child {
-    border-top: 1px solid #fff;
+    border-top: 1px solid @back-white;
   }
   .burger-menu_link:hover {
     filter: brightness(0.9);
@@ -506,7 +506,7 @@ span>h6{
 
 .car-back{
     background-image: url(./icons/background.svg);
-    background-color: #3563E9;
+    background-color: @color-prim;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-size: cover;
 }
@@ -514,7 +514,7 @@ span>h6{
 #imgtext{
     
 
-    color: #FFFFFF;
+    color: @back-white;
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
 
@@ -561,7 +561,7 @@ span>h6{
 
 .focus,.item-thumb:hover{
 	outline:1px solid @color-prim;
-    border: 5px solid #fff;
+    border: 5px solid @back-white;
 }
 
 .view{
@@ -572,7 +572,7 @@ span>h6{
 }
 
 #description{
-    background-color: #fff;
+    background-color: @back-white;
 }
 
 .rating{
@@ -603,7 +603,7 @@ span>h6{
 
     letter-spacing: 0.02em;
 
-    color: #3D5278;
+    color: @base-color;
 
     margin-left: 8px;
 }
@@ -637,7 +637,7 @@ input.check__input {
     
     letter-spacing: -0.02em;
     
-    color: #3D5278;
+    color: @base-color;
 }
 
 .title-body, .descr, .properties{
@@ -662,7 +662,7 @@ input.check__input {
     text-align: right;
     letter-spacing: -0.02em;
 
-    color: #3D5278;
+    color: @base-color;
 }
 
 
@@ -689,14 +689,14 @@ input.check__input {
     width: 140px;
     height: 56px;
 
-    background: #3563E9;
+    background: @color-prim;
     border-radius: 4px;
 
     font-size: 16px;
     line-height: 20px;
     text-decoration: none;
 
-    color: #FFFFFF;
+    color: @back-white;
 }
 
 #reviews{
@@ -704,10 +704,20 @@ input.check__input {
 }
 .reviwe-back{
     padding: 24px; 
-    background-color: #fff;
+    background-color: @back-white;
     border-radius: 10px;
 }
 
+.reviwe-back>.accordion-item{
+    border: none;
+}
+
+.accordion-button::after {
+    width: 16px;
+    height: 16px;
+    background-size: auto;
+    margin-left: 8px;
+}
 
 .review-title{
     font-size: 20px;
@@ -726,11 +736,12 @@ input.check__input {
     color: #90A3BF;
 }
 
+
 .title-badge{
     font-size: 14px;
     line-height: 18px;
 
-    color: #FFFFFF;
+    color: @back-white;
 
     width: 44px;
     height: 28px;
@@ -790,7 +801,7 @@ input.check__input {
     line-height: 20px;
     text-align: center;
 
-    color: #3563E9;
+    color: @color-prim;
 }
 
 .top-cars-gallery{
@@ -798,7 +809,7 @@ input.check__input {
 }
 
 .item{
-    background-color: #fff;
+    background-color: @back-white;
     border-radius: 10px;
     width: 317px;
     height: 388px;
@@ -854,7 +865,7 @@ input.check__input {
     line-height: 20px;
     text-align: center;
 
-    color: #FFFFFF;
+    color: @back-white;
 }
 
 .gallery-cars{
@@ -895,7 +906,7 @@ input.check__input {
         display: flex;
         align-items: center;
 
-        color: #3563E9;
+        color: @color-prim;
     } 
     
     .card-size{
@@ -1041,9 +1052,4 @@ input.check__input {
         margin-bottom: 24px;
     }
 
-}
-
-@media @tablet{
-
-    
 }
