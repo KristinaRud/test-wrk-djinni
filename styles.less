@@ -7,6 +7,10 @@
 @base-color: #3D5278;
 @border-color: rgba(195, 212, 233, 0.4);
 
+@font: 'Plus Jakarta Sans';
+
+
+
 body {
     background-color: @body-back;
 }
@@ -23,12 +27,33 @@ body {
     border: 1px solid @border-color;
 }
 
+.font-700{
+    font-family: @font;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.font-600{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.font-500{
+    font-family: @font;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.font-400{
+    font-family: @font;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .logo {
     width: 148px;
 
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
     line-height: 120%;
 
@@ -75,9 +100,6 @@ body {
     border-color: @border-color;
 
     /* Medium/Type@14 */
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 150%;
 
@@ -159,9 +181,6 @@ section {
 }
 
 .card-title {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 12px;
     line-height: 150%;
 
@@ -191,9 +210,6 @@ input[type=checkbox] {
 }
 
 .label-filter {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 150%;
 
@@ -208,9 +224,6 @@ input[type=checkbox] {
 
 .badge-count {
     color: #90A3BF;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 150%;
 
@@ -291,9 +304,6 @@ input[type=checkbox] {
   }
 
   .footer-card>h5 {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 120%;
     /* or 24px */
@@ -306,9 +316,6 @@ input[type=checkbox] {
 }
 
 .footer-list {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 120%;
     /* or 19px */
@@ -331,15 +338,9 @@ hr{
 }
 
 span>h6{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 200%;
     /* identical to box height, or 32px */
-    
-    display: flex;
-    align-items: center;
     text-align: right;
     letter-spacing: -0.01em;
     
@@ -589,9 +590,6 @@ span>h6{
 }
 
 .title-car{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
     line-height: 140%;
     /* or 45px */
@@ -600,9 +598,6 @@ span>h6{
 }
 
 .text-review{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
 
@@ -636,9 +631,6 @@ input.check__input {
 }
 
 .descr{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 200%;
     /* or 40px */
@@ -657,26 +649,16 @@ input.check__input {
 }
 
 .prop-name{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    display: flex;
-    align-items: center;
     letter-spacing: -0.02em;
 
     color: #90A3BF;
 }
 
 .prop{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 25px;
-    display: flex;
-    align-items: center;
     text-align: right;
     letter-spacing: -0.02em;
 
@@ -685,9 +667,7 @@ input.check__input {
 
 
 .select-price{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
+
     font-size: 32px;
     line-height: 40px;
 
@@ -695,9 +675,6 @@ input.check__input {
 }
 
 .small-txt{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
 
@@ -715,9 +692,6 @@ input.check__input {
     background: #3563E9;
     border-radius: 4px;
 
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-decoration: none;
@@ -736,9 +710,6 @@ input.check__input {
 
 
 .review-title{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 25px;
 
@@ -748,22 +719,14 @@ input.check__input {
 }
 
 .all-comments{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
     text-align: center;
 
     color: #90A3BF;
 }
 
 .title-badge{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 18px;
 
@@ -785,22 +748,12 @@ input.check__input {
 }
 
 .name{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    display: flex;
-    align-items: center;
-
     color: #1A202C;
 }
 
 .thin-little-txt{
-
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     display: flex;
@@ -811,10 +764,6 @@ input.check__input {
 
 .comments{
     padding-left: 72px;
-
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 200%;
     /* or 28px */
@@ -827,9 +776,6 @@ input.check__input {
 }
 
 .title-cars-section{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     display: flex;
@@ -840,13 +786,8 @@ input.check__input {
 }
 
 .btn-all{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
     text-align: center;
 
     color: #3563E9;
@@ -864,9 +805,6 @@ input.check__input {
 }
 
 .type-car{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     display: flex;
@@ -877,14 +815,8 @@ input.check__input {
 }
 
 .title-item{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    display: flex;
-    align-items: center;
-
     color: #1A202C;
 }
 
@@ -893,14 +825,8 @@ input.check__input {
     height: 150px;
 }
 .title-property{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    display: flex;
-    align-items: center;
-
     color: #90A3BF;
 }
 
@@ -910,39 +836,22 @@ input.check__input {
 
 
 .car-price-item{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    display: flex;
-    align-items: center;
-
     color: #1A202C;
 }
 
 .small-txt-item{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    display: flex;
-    align-items: center;
-
     color: #90A3BF;
 }
 
 .btn-rent-item > .btn-rent{
     width: 116px;
     height: 44px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
     text-align: center;
 
     color: #FFFFFF;
